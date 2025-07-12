@@ -26,4 +26,4 @@ Add interactivity with JavaScript in future versions
 
 Repository Owner:
 Rida Shaikh
-GitHub Profile
+https://github.com/Shaikhrrida
