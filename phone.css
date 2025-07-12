@@ -1,0 +1,93 @@
+/* phone.css — for max-width 768px screens */
+
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    #navbar ul li {
+        padding: 5px 0;
+    }
+
+    #navbar ul li a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    /* Home Section */
+    #home {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #home::before {
+        height: auto;
+    }
+
+    #home p {
+        font-size: 14px;
+    }
+
+    .h-primary {
+        font-size: 20px;
+    }
+
+    /* Services Section */
+    #services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .h-secondary {
+        font-size: 18px;
+    }
+
+    /* Clients Section */
+    #clients {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .client-item {
+        margin: 10px;
+        width: 40%;
+    }
+
+    .client-item img {
+        width: 100%;
+    }
+
+    /* Contact Section */
+    #contact-box {
+        padding: 10px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    /* Footer */
+    footer .center {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
