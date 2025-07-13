@@ -2,7 +2,7 @@ Project Name: Clean Project 2
 Live Link: https://shaikhrrida.github.io/project-2/
 
 Description:
-This is a static frontend website built using HTML5 and CSS3. It is my second frontend project and currently non-responsive. The purpose of this project was to practice basic structure, layout design, image placement, and styling using clean code techniques.
+This is a static frontend website built using HTML5 and CSS3. It is my second frontend project and a responsive one. The purpose of this project was to practice basic structure, layout design, image placement, and styling using clean code techniques and making websites responsive.
 
 Features:
 Developed using HTML5 for structure
@@ -12,13 +12,12 @@ Manually deployed using GitHub Pages
 Hosted publicly on GitHub for learning and sharing purposes
 
 Project Status:
-Completed (static, non-responsive version)
+Completed (static, responsive version)
 
 Usage:
 This project is for showcasing my basic frontend development skills. You can open the live link on any desktop browser to view the site.
 
 Future Improvements:
-Make the layout responsive using media queries
 
 Optimize images for faster loading
 
