@@ -1,93 +1,118 @@
-/* phone.css — for max-width 768px screens */
+/* phone.css - For screens up to 766px wide */
 
-@media screen and (max-width: 768px) {
-    /* Navbar */
-    #navbar {
-        flex-direction: column;
-        align-items: center;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    #navbar ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
+#navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
 
-    #navbar ul li {
-        padding: 5px 0;
-    }
+#navbar ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+}
 
-    #navbar ul li a {
-        font-size: 14px;
-        padding: 5px 10px;
-    }
+#navbar ul li {
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+}
 
-    /* Home Section */
-    #home {
-        height: auto;
-        padding: 20px;
-        text-align: center;
-    }
+#logo {
+    margin: 10px 0;
+    text-align: center;
+}
 
-    #home::before {
-        height: auto;
-    }
+#logo img {
+    height: 60px;
+    margin: 0 auto;
+}
 
-    #home p {
-        font-size: 14px;
-    }
+#home {
+    padding: 10px 20px;
+    height: auto;
+    text-align: center;
+}
 
-    .h-primary {
-        font-size: 20px;
-    }
+#home::before {
+    height: 100%;
+}
 
-    /* Services Section */
-    #services {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+#home h1 {
+    font-size: 1.8rem;
+    padding: 10px 0;
+}
 
-    .box {
-        width: 90%;
-        margin: 10px auto;
-    }
+#home p {
+    font-size: 1rem;
+    padding: 0 10px;
+}
 
-    .h-secondary {
-        font-size: 18px;
-    }
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
 
-    /* Clients Section */
-    #clients {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+.h-primary {
+    font-size: 1.8rem;
+    padding: 8px;
+}
 
-    .client-item {
-        margin: 10px;
-        width: 40%;
-    }
+.h-secondary {
+    font-size: 1.3rem;
+    padding: 6px;
+}
 
-    .client-item img {
-        width: 100%;
-    }
+#services {
+    flex-direction: column;
+    margin: 10px 15px;
+}
 
-    /* Contact Section */
-    #contact-box {
-        padding: 10px;
-    }
+#services .box {
+    margin: 10px 0;
+    padding: 20px;
+}
 
-    .form-group input,
-    .form-group textarea {
-        width: 100%;
-        font-size: 14px;
-        padding: 8px;
-    }
+#services .box img {
+    height: 80px;
+    width: auto;
+    max-width: 100%;
+}
 
-    /* Footer */
-    footer .center {
-        font-size: 12px;
-        padding: 10px;
-    }
+#clients {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.client-item {
+    padding: 10px;
+}
+
+#clients img {
+    height: 70px;
+    max-width: 100%;
+}
+
+#contact-box form {
+    width: 90%;
+}
+
+#contact-box input,
+#contact-box textarea {
+    font-size: 1rem;
+}
+
+#contact-box label {
+    font-size: 1rem;
+}
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 12px;
 }
