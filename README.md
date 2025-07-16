@@ -1,4 +1,4 @@
-Project Name: Clean Project 2
+-Practice Project 2:
 Live Link:  https://shaikhrrida.github.io/project-2/
 
 Description:
